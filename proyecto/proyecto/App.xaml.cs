@@ -11,7 +11,14 @@ namespace proyecto
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+            var navigationPage = new NavigationPage(new MainPage());
+            var color = "ffff";
+            navigationPage.BackgroundColor = Color.FromHex(color);
+            navigationPage.BarTextColor = Color.White;
+
+            MainPage = navigationPage;
+
+           // MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()
