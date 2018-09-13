@@ -4,11 +4,10 @@
              xmlns:local="clr-namespace:proyecto"
              x:Class="proyecto.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="Center">
+        <Image Source="logo.png"></Image>
+
     </StackLayout>
 
 </ContentPage>
