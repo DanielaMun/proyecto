@@ -6,7 +6,10 @@
 
     <StackLayout HorizontalOptions="Center"
                  VerticalOptions="Center">
-        <Image Source="logo.png"></Image>
+        <Button x:Name="bntinicio"
+            Image="logo.png"
+            Clicked="btntres_Clicked">
+        </Button>
 
     </StackLayout>
 
